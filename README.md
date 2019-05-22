@@ -17,8 +17,11 @@ This tool will not create a QGIS Project for you. You will need to create one be
 
 ### Contents of this Tool Package
 •	ArcGIS Pro Toolbox containing the tool
+
 •	toRunQ.py script
+
 •	‘python-qgis.bat’
+
 This package contains this file on what the script does and how to use it, a .py script, and the tool that has already been imported in QGIS. It also contains a file called ‘python-qgis.bat’ this is a file that is referenced in our Python script. This file is automatically downloaded when the user downloads the OSGeo4W version of QGIS, but I have supplied this one just for reference. This file should be stored in ‘C:/OSGeo4W64/bin’ for this tool to work. If OSGeo4W64 is in this location the tool should work without a problem.
 
 ### Installing 
@@ -30,13 +33,22 @@ This package contains this file on what the script does and how to use it, a .py
 6.	You are now ready to Export Vector Layers to QGIS!
 
 ### How to Use
-Parameters:
-Location Of QGIS:
+#### Parameters:
+
+##### Location Of QGIS:
+
 This will be the location of OSGeo4W. Mine is 'C:\OSGeo4W64' and it will likely be yours as well.
-QGIS Project:
-This is any QGIS Project that you have created. 
-Feature Layer:
+
+##### QGIS Project:
+
+This is any QGIS Project that you have created.
+
+##### Feature Layer:
+
 You can drag in any Feature layer that it on your map here.
+
 Once these parameters are filed out, open your QGIS Project and your shapefile will be there. If your QGIS Project is already open, you will have to open it again. A QGIS Project does not automatically update the layers when new ones are added through Python
-Future Work and Tools
+
+### Future Work and Tools
+
 This tool, ‘Export Vector to QGIS’, will be expanded to be able to export multiple layers at once from ArcGIS Pro. It will also be expanded to accept feature classes. This is just the first tool in this tool set. An additional ArcGIS tool, ‘Import Vector from QGIS’, will be made to read the layers that are in a QGIS project and add them to an ArcGIS Pro project. I will also be making a GitHub page for this project within the next week.
